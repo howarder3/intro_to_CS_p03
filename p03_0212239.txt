@@ -1,0 +1,45 @@
+//File Name:p03_0212239.cpp
+//Author:翁健豪
+//Email Address:howarder3@gmail.com
+//Assignment Number:3
+//Description:Use c++ to calculate the amount of interest and how many month you should take.
+//Last Changed:October 21,2013
+
+(1).The purpose of this program:
+
+利用C++程式的計算，告訴使用者的花費每一個月會有多少利息產生，並計算出需要幾個月才能支付的完總額。
+
+(2).The difficulty you encountered when writing this program:
+
+1.一開始有對齊的困難，用setw的語法下去做，
+但好像cout如果是文字的話setw對它好像無效?
+一直反覆不停的用空白鍵修改，花了不少時間。
+
+2.四捨五入一直弄不出來讓我苦惱許久，
+最後與同學討論得到了答案。
+
+(3).Anything special in your program:
+
+1.有防使用者誤輸入設計，使用goto語法，當使用者輸入其他非可以選擇的選項時，
+  會顯示出輸入錯誤，並要求使用者重新輸入。
+
+2.使用system("cls")，當每重複執行一次迴圈時，
+  會清除前一次的所有資料，而隨著使用者操作的各個階段，
+  也會清除已經用不到的資料。
+
+3.清除資料前有貼心提醒，
+  "「系統關閉」或「執行下一次運算」時將會清除全部資料，
+  請確認您的資料已記下來。"
+  "若您已確認記下，請再按一次「Enter鍵」以執行下一個步驟。\n"
+  確保使用者不會因為按太快而錯失紀錄的時機。
+
+4.用setw表格化輸出，使得數據更加整齊。
+
+5.本程式做有中文版跟英文版，可在使用時做選取。
+
+6.本程式有背景介紹。
+
+
+
+
+
